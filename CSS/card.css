@@ -1,0 +1,49 @@
+body, html {
+    background-color: #666;
+}
+
+.slide-custom {
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    background-color: brown;
+}
+.carousel-item-custom{
+    margin-left: 7%;
+    
+}
+.carousel-card1, .carousel-card2, .carousel-card3 {
+    width: 300px;
+    height: 350px;
+    margin-left: 6%;
+    margin-top: 30px;
+    box-shadow: 0 0 10px #333;
+}
+.carousel-card-img-1 {
+    height: 220px;
+    background-image: url(../img/bg-dark1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carousel-card-img-2 {
+    height: 220px;
+    background-image: url(../img/bg-pic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carousel-card-img-3 {
+    height: 220px;
+    background-image: url(../img/bg-last.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carousel-card-info {
+    height: 130px;
+    background-color: #fff;
+    padding: 20px;
+}
+.fun {
+    display: block;
+    height: 600px;
+    background-color: blueviolet;
+}

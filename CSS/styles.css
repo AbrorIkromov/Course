@@ -1,0 +1,394 @@
+/* body {
+    background: #283048; 
+    background: -webkit-linear-gradient(to right, #859398, #283048); 
+    background: linear-gradient(to right, #859398, #283048); 
+    
+} */
+header {
+    /* background-color: #ebe4dc; */
+    background: #283048; 
+    background: -webkit-linear-gradient(to right, #859398, #283048); 
+    background: linear-gradient(to right, #859398, #283048); 
+    
+    height: 90vh;
+}
+.navbar-custom {
+    /* background-color: #2C5364; */
+    
+        background: #283048; 
+        background: -webkit-linear-gradient(to right, #859398, #283048); 
+        background: linear-gradient(to right, #859398, #283048); 
+}
+
+a {
+    text-emphasis: none;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header-row {
+    padding-top: 100px;
+    
+}
+.col-md-6 img {
+    width: 100%;
+}
+
+.main {
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+.main h2 {
+    font-size: 45px;
+    font-family:sans-serif;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.main p {
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.adults{
+    background-image: linear-gradient(rgba(32, 32, 32, 0.7),rgba(48, 48, 48, 0.7)), url(../img/bg-dark1.jpg);
+    outline: rgb(31, 31, 31);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -100;
+    padding-bottom: 0;
+    padding-top: 90px;
+}
+
+.kids {
+    background-image: linear-gradient(rgba(32, 32, 32, 0.7),rgba(48, 48, 48, 0.7)), url(../img/bg-plain.jpg);
+    outline: rgb(31, 31, 31);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -100;
+    padding-bottom: 0;
+    padding-top: 90px;
+}
+
+.math{
+    background-image: linear-gradient(rgba(32, 32, 32, 0.7),rgba(48, 48, 48, 0.7)), url(../img/bg-last.jpg);
+    outline: rgb(31, 31, 31);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -100;
+    padding-bottom: 0;
+    padding-top: 90px;
+}
+
+.adults img, .kids img, .math img{
+    width: 60%;
+    height: 290px;
+    border: none;
+    border-radius: 20px;
+    position: relative;
+}
+
+.pic-right {
+    left: 150px;
+    top: -200px;
+    width: 70%;
+    height: 250px;
+}
+
+.adults h2, .kids h2, .math h2 {
+    font-size: 40px;
+    font-family:sans-serif;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.adults-content {
+    padding: 0 40px;
+    color: #fff;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    text-align:justify;
+}
+
+.btn-custom1 {
+    border: solid 1px white;
+    border-radius: 5px;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.btn-custom1:hover {
+    background-color: #888;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+
+
+
+footer {
+    background-color: #071920;
+    color: #fff;
+    padding: 30px;
+}
+
+.fas {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.fab {
+    font-size: 30px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.fas.fa-exclamation {
+    font-size: 25px;
+    color: red;
+}
+
+.modal-body p {
+    font-size: 20px;
+}
+
+
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+footer ul li a:hover, footer ul li a:active {
+    font-size: 19px;
+
+}
+
+.fa-telegram:hover, .fa-facebook:hover, .fa-twitter:hover, .fa-telegram:active, .fa-facebook:active, .fa-twitter:active {
+    color: rgb(65, 163, 255);
+}
+
+.fa-instagram:hover, .fa-instagram:active{
+    color: #b46419;
+}
+
+
+/* REsponsive  mobile*/
+
+@media (max-width: 575.98px) {
+    header {
+        height: 140vh;
+    }
+
+    .adults-content {
+        padding: 0 20px 40px;
+        color: #fff;
+        font-size: 17px;
+        letter-spacing: 0px;
+        text-align:justify;
+    }
+
+    div.col-md-5 {
+        height: 55vh;
+        margin: 0;
+        padding-left: 10px;
+        padding-right: 20px;
+    }
+
+    .adults img, .kids img, .math img{
+        width: 60%;
+        height: 260px;
+        position: relative;
+    }
+
+    footer {
+        padding: 10px;
+    }
+
+    footer ul {
+        padding: 10px 0;
+        
+    }
+
+    footer ul li {
+        padding-left: 0;
+    }
+
+    .fas {
+        font-size: 25px;
+        margin-bottom: 10px;
+        padding-right: 10px;
+    }
+
+    .pb {
+        padding-bottom: 15  px;
+    }
+
+    .main {
+        padding: 20px 10px;
+    }
+
+}
+
+/* Responsive Tablet */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .main  {
+   width: 100vw;
+   padding: 20px 0;
+   
+  }
+
+  .header-row img {
+      width:80%;
+      height: 95%;
+  }
+
+  header {
+      height: 95vh;
+      margin: 0;
+      padding: 0;
+      width: 97.73vw;
+  }
+
+ .tablet-height {
+      height: 50vh;
+  }
+
+  .adults-content {
+      padding: 0 0 40px;
+  }
+
+  footer {
+    padding: 10px;
+}
+
+footer ul {
+    padding: 10px 0;
+    
+}
+
+footer ul li {
+    padding-left: 0;
+}
+
+.fas {
+    font-size: 25px;
+    margin-bottom: 10px;
+    padding-right: 10px;
+}
+
+.pb {
+    padding-bottom: 15  px;
+}
+
+}
+
+
+/* Responsive larger tablets */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    header.container {
+        width: 100vw;
+        padding: 0;
+        margin: 0;
+    }
+.header-row{
+display: flex;
+flex-flow: column;
+}
+
+.header-row img {
+    width: 50vw;
+padding-left: 80px;
+}
+
+.main p {
+    width: 70vw;
+}
+.tablet-height {
+    position: relative;
+    left: -100px;
+}
+
+.adults-content{
+    position: relative;
+    left: -50px;
+    padding-bottom: 30px;
+}
+.adults-content p {
+    width: 50vw;
+}
+
+.adults img, .kids img, .math img{
+    width: 65%;
+    height: 230px;
+    position: relative;
+}
+.fas {
+    font-size: 30px;
+}
+
+}
+
+
+
+/* Responsive height */
+
+@media screen and (max-height:540px) {
+      header {
+        height: 190vh;
+        padding: 10px;
+    }
+
+    .main {
+        padding: 20px 0px 0;
+        letter-spacing: 0;
+    }
+
+    .main h2 {
+        font-size: 35px;
+    }
+
+    section.adults {
+        height:270vh;
+        padding-top: 20px;
+    }
+
+    .adults-content {
+        margin-top: 75px;
+    }
+}
+
+
+
+
+
+
+
+/* Shape divider */
+
+/* Shape divider */
+
+/* Shape divider2 */
+
+/* Shape divider2 */
